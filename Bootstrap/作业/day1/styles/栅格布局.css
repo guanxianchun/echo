@@ -38,11 +38,36 @@
 		width: calc(25% - 7.5px);
 		margin-right:10px;
 	}
+	.marginR0{
+		margin-right: 0;
+	}
+	.marginR01{
+		margin-right:10px;
+	}
 }
 @media screen and (min-width:768px) and (max-width:991px)
 {
+	.heads,.main2{
+		margin-top:10px;
+	}
 	.main3{
 		width:calc(50% - 5px);
 		margin-right:10px;
+		margin-top:10px;
+	}
+	.marginR0{
+		margin-right: 0;
+	}
+	.marginR01{
+		margin-right: 0;
+	}
+}
+@media screen and (min-width:320px) and (max-width:767px)
+{
+	.heads,.main2,.main3{
+		margin-top: 10px;
+	}
+	.main3{
+		width:100%;
 	}
 }
