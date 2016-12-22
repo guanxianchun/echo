@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<script src="js/jquery-1.11.3.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<link rel="icon" href="img/1.jpg">
+	<!-- 条件注释 如果是IE9以下的ie浏览器就会加载这两个文件 
+	html5shiv.js  解决IE不支持html5新标签，新特性
+	respond：解决ie不支持响应式@media
+	-->
+	<!--[if lt IE 9]>
+		<script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+	<![endif]-->
+	<style type="text/css">
+		.row>div{
+			border:1px solid;
+		}
+	</style>
+</head>
+<body>
+<!-- 	<div class="container">container</div> -->
+<!-- 	<div class="container-fluid">container-fluid</div> -->
+	<!--类名 行： row 一行分成12列  
+	在行里面定义列 ：
+	col-md-offset：列偏移 -->
+<!-- 	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-3 col-xs-6">col-md-3,col-xs-6</div>
+			<div class="col-md-3 col-xs-6 col-md-offset-1">col-md-3,col-xs-6</div>
+			<div class="col-md-3 col-md-offset-3">col-md-3</div>
+			<div class="col-md-3">col-md-3</div>
+		</div>
+	</div> -->
+	
+	<!-- 嵌套列 -->
+	<h4>嵌套列</h4>
+	<div class="row">
+		<div class="col-md-3">
+			<div class="row">
+				<div class="col-md-3">col-md-3</div>
+				<div class="col-md-3">col-md-3</div>
+				<div class="col-md-3">col-md-3</div>
+				<div class="col-md-3">col-md-3</div>
+			</div>
+		</div>
+		<div class="col-md-3">col-md-3</div>
+		<div class="col-md-3">col-md-3</div>
+		<div class="col-md-3">col-md-3</div>
+	</div>
+	<!-- 列排序 
+	push-1: left:8.33333%
+	pull-1: right:8.33333%
+	-->
+	<h4>列排序</h4>
+	<div class="row">
+		<div class="col-md-3 col-md-push-3">col-md-3,push-3</div>
+		<div class="col-md-3 col-md-pull-3">col-md-3</div>
+	</div>
+</body>
+</html>
