@@ -1,4 +1,4 @@
-1.概述：
+﻿1.概述：
 	1）官网：
 		http://v3.bootcss.com/
 	2）bootstrap的作用：
@@ -81,3 +81,4 @@
 		<script src="bootstrap.min.js"></script>
 	建立html文件
 	学会使用帮助手册
+   
