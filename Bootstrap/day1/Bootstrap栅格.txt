@@ -1,4 +1,4 @@
-1、Bootstrap 排版、链接样式设置了基本的全局样式。
+﻿1、Bootstrap 排版、链接样式设置了基本的全局样式。
 分别是：
 	为 body 元素设置 background-color: #fff;
 	使用 @font-family-base、@font-size-base 和 @line-height-base a变量作为排版的基本参数
@@ -79,3 +79,4 @@
 		通过使用 .col-md-push-* 和 .col-md-pull-* 类就可以很容易的改变列（column）的顺序。
 		.col-md-pull-1:相当于设置属性right：8.33333333%
 		.col-md-push-1:相当于设置属性left：8.33333333%
+
